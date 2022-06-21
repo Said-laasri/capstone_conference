@@ -1,9 +1,8 @@
 # Capstone-Project-I
 
-
 # Description the project.
 
-This project is example of Website for Commercial and marketing head-phones to our clients
+This project is example of Website for offering services to our clients
 
 ## Built With
 
@@ -23,11 +22,10 @@ follow>>>>>>>>>
 ### Setup
 
 to use the project please follow :
- >Open GitHub and go to my GitHub repository name: Capstone-Project-I .to clone.
- >Click “Code” and copy the given URL.
- >click code and copy the URL.
 
- >click code and copy the URL.
+ >Open GitHub and go to my GitHub repository name: Capstone-Project-I .to clone.
+
+ >Click “Code” and copy the given URL.
 
  >Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
 
@@ -38,10 +36,11 @@ to use the project please follow :
   $ git clone {repository URL}
 
 ### Usage
-
+this website can be used for commercial reasons or marketing.
 
 ### LIVE DEMO
 CHECK THIS LINK 
+
 ## Authors
 
 👤 **Said laasri**
