@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
   padding: 0;
@@ -33,7 +33,7 @@ body {
 
 .minimenu {
   display: flex;
-  background: linear-gradient(0deg, hsla(240, 15%, 45%, 1) 1%, hsla(240, 24%, 42%, 1) 27%, hsla(240, 29%, 41%, 1) 50%, hsla(240, 53%, 35%, 1) 74%, hsla(204, 77%, 76%, 1) 99%, hsla(240, 4%, 57%, 1) 100%);
+  background: #272a31;
   width: 100%;
   height: 100rem;
   position: relative;
@@ -42,7 +42,7 @@ body {
 }
 
 .minimenu .closer {
-  color: #f0e7e6;
+  color: #d3d3d3;
   position: absolute;
   top: 60px;
   right: 56px;
@@ -50,25 +50,25 @@ body {
 }
 
 .minimenu .closer:hover {
-  color: #df402b;
+  color: #ec5242;
 }
 
 .minimenu .tags {
   width: 30%;
   height: max-content;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 25px;
   padding: 10px;
   margin: 10px 30px;
   text-align: start;
   text-decoration: none;
-  border-bottom: 1px solid #f0e7e6;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .minimenu .tags > a {
   text-decoration: none;
-  color: #fff;
+  color: #d3d3d3;
 }
 
 .minimenu .tags > a:hover {
@@ -102,11 +102,11 @@ body {
   text-align: center;
 }
 
-.Welcome > h3 {
-  font-family: 'inter', sans-serif;
+.Welcome > h1 {
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
-  color: #f56a2a;
-  font-weight: 200;
+  color: #ec5242;
+  font-weight: 700;
   padding: 1px 10px;
   margin: 1px 2px;
 }
@@ -114,13 +114,13 @@ body {
 .Welcome #about-h1 {
   font-size: 42px;
   font-weight: 800;
-  color: #e94d0f;
+  color: #ec5242;
   width: 80%;
   margin: 1px 2px;
 }
 
 .Welcome .h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 45px;
   font-weight: 800;
   background: -webkit-linear-gradient(0deg, hsla(15, 86%, 49%, 1) 22%, hsla(0, 69%, 47%, 1) 56%, hsla(57, 91%, 50%, 1) 96%);
@@ -142,21 +142,20 @@ body {
 }
 
 .Welcome > p {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding: 10px 10px;
   margin: 34px 12px;
-  color: rgb(114, 114, 114);
+  color: #272a31;
   font-size: medium;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5rem;
-  background: #fafafa;
 }
 
 .Welcome > h2 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding: 2px 10px;
   margin: 1px 5px;
-  color: rgb(100, 99, 99);
+  color: #272a31;
   font-size: 34px;
   font-weight: 1000;
 }
@@ -164,16 +163,16 @@ body {
 .Welcome #about-h4 {
   text-decoration: underline;
   font-weight: 700;
-  color: rgb(87, 87, 87);
+  color: #272a31;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
 .Welcome > h4 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding: 2px 10px;
   margin: 1px 5px;
-  color: rgb(100, 99, 99);
+  color: #272a31;
   font-size: 18px;
   font-weight: 300;
 }
@@ -189,39 +188,39 @@ body {
 }
 
 .partners > h3 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: 500;
   padding: 1px;
-  color: rgb(250, 245, 245);
+  color: #d3d3d3;
   margin: 1px 45%;
 }
 
 .Program-cards > div > h3 {
-  color: #fff;
-  font-family: 'crete', sans-serif;
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   padding-top: 10px;
   padding-bottom: 1px;
 }
 
 .summit1 .summit-content > h3 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 33px;
   font-weight: 800;
   margin-bottom: 1px;
   padding: 1px 40px;
-  color: rgb(250, 245, 245);
+  color: #d3d3d3;
 }
 
 .summit2 .summit-content > h3 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 33px;
   font-weight: 800;
   margin-bottom: 1px;
   padding: 1px 40px;
-  color: rgb(250, 245, 245);
+  color: #d3d3d3;
 }
 
 .subject {
@@ -235,7 +234,7 @@ body {
 }
 
 .subject > h2 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 26px;
   font-weight: 500;
   width: 61%;
@@ -245,11 +244,11 @@ body {
 
 .subject > p {
   text-align: center;
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-weight: 500;
   padding: 5px 64px;
-  color: rgb(114, 113, 113);
+  color: #272a31;
 }
 
 .subject > img {
@@ -273,7 +272,7 @@ body {
 }
 
 .past-summits > article > h4 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 26px;
   font-weight: 500;
   width: 100%;
@@ -283,11 +282,11 @@ body {
 
 .past-summits > article > p {
   text-align: center;
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 500;
   padding: 1px 64px;
-  color: rgb(114, 113, 113);
+  color: #272a31;
 }
 
 .summit1 {
@@ -298,7 +297,7 @@ body {
   align-items: center;
   width: 75%;
   height: 300px;
-  background-color: #eb4e48c4;
+  background-color: #ec5242;
 }
 
 .summit1 > img {
@@ -316,27 +315,27 @@ body {
   width: 100%;
   height: 100%;
   flex-direction: column;
-  background-color: rgba(238, 17, 17, 0.603);
+  background-color: #dd433298;
 }
 
 .grid-card > div > h5 {
-  font-family: 'Crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 700;
   width: 80%;
   font-style: italic;
   height: max-content;
-  color: #f03f09;
+  color: #ec5242;
   margin-top: 1px;
   margin-bottom: 24px;
 }
 
 .summit1 .summit-content > h5 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 500;
   padding: 1px 31px;
-  color: rgb(253, 252, 252);
+  color: #d3d3d3;
 }
 
 .summit2 {
@@ -348,7 +347,7 @@ body {
   align-items: center;
   width: 75%;
   height: 300px;
-  background-color: #eb4e48c4;
+  background-color: #ec53424b;
 }
 
 .summit2 > img {
@@ -359,11 +358,11 @@ body {
 }
 
 .summit2 .summit-content > h5 {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 500;
   padding: 1px 31px;
-  color: rgb(253, 252, 252);
+  color: #d3d3d3;
 }
 
 .partners {
@@ -406,13 +405,13 @@ body {
 }
 
 .about-footer > div > p {
-  font-family: 'crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 10px;
   font-weight: 500;
   padding: 1px;
   margin: 1px 1px;
   width: 80%;
-  color: rgb(114, 113, 113);
+  color: #272a31;
 }
 
 .Join-btn {
@@ -423,11 +422,11 @@ body {
 .Join-btn > button {
   width: 100%;
   padding: 30px 54px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: medium;
   font-weight: 700;
   color: #fff;
-  background-color: #d33d23de;
+  background-color: #ec5242;
   border: none;
 }
 
@@ -445,7 +444,7 @@ body {
 }
 
 .program-list > li {
-  background: #212653d3;
+  background: #272a31;
   display: flex;
   height: 100px;
   padding: 5px 5px;
@@ -461,18 +460,18 @@ body {
 }
 
 .program-list > li > h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-weight: 700;
-  color: #df402b;
+  color: #ec5242;
   margin: 3px 5px;
 }
 
 .program-list > li > p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 10px;
-  font-weight: 200;
-  color: #f0e7e6;
+  font-weight: 700;
+  color: #d3d3d3;
   margin: 3px 5px;
 }
 
@@ -496,11 +495,11 @@ body {
 }
 
 .participant > h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 27px;
-  font-weight: 600;
+  font-weight: 700;
   margin: auto;
-  color: #383a38;
+  color: #272a31;
   text-align: center;
   padding: 28px 27px;
 }
@@ -532,22 +531,22 @@ body {
 }
 
 .grid-card > div > h4 {
-  font-family: 'Crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   width: 80%;
   height: max-content;
-  color: #232427;
+  color: #272a31;
   margin: 0;
 }
 
 .grid-card > div > p {
-  font-family: 'Crete', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 12px;
-  font-weight: 100;
+  font-weight: 700;
   width: 100%;
   height: max-content;
-  color: #2c2d2e;
+  color: #272a31;
   margin-top: 1px;
   margin-bottom: 10px;
 }
@@ -559,10 +558,10 @@ body {
     height: 14px;
     justify-content: flex-end;
     align-content: space-between;
-    background-color: #161816;
+    background-color: #272a31;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #fafafa;
+    color: #d3d3d3;
     padding-right: 10%;
   }
 
@@ -572,12 +571,12 @@ body {
 
   .first-bar > div {
     padding: 1px 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: small;
   }
 
   .first-bar > div > a {
-    color: #fafafa;
+    color: #d3d3d3;
     text-decoration: none;
   }
 
@@ -612,19 +611,19 @@ body {
   .seconde-bar .menu {
     display: flex;
     gap: 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
     justify-content: space-around;
   }
 
   .seconde-bar .menu > div > a {
     text-decoration: none;
-    color: #0e0d0d;
+    color: #272a31;
     padding: 16px;
   }
 
   .menu #edx {
-    color: #f70707;
+    color: #ec5242;
   }
 
   .menu #efx {
@@ -647,7 +646,7 @@ body {
 
   #Welcome-about > h1 {
     width: 50%;
-    color: #f05b20;
+    color: #ec5242;
   }
 
   .Welcome > p {
@@ -678,7 +677,7 @@ body {
   }
 
   #about-footer {
-    background: #2f2f31d8;
+    background: #272a31;
     height: 140px;
   }
 
@@ -692,7 +691,7 @@ body {
   }
 
   #about-footer > div > p {
-    color: #f0e7e6;
+    color: #d3d3d3;
     width: 80%;
     font-size: 15px;
   }
@@ -719,11 +718,11 @@ body {
   }
 
   .participant > h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 700;
     margin: auto;
-    color: #383a38;
+    color: #272a31;
     text-align: center;
     padding: 28px 27px;
   }
