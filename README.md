@@ -39,7 +39,7 @@ to use the project please follow :
 this website can be used for commercial reasons or marketing.
 
 ### LIVE DEMO
-CHECK THIS LINK 
+CHECK THIS [LINK](https://said-laasri.github.io/Capstone-Project-I/)
 
 ## Authors
 
