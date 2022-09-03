@@ -607,6 +607,16 @@ body {
     height: 100%;
     object-fit: cover;
     margin-left: 10%;
+    animation-name: logoa;
+  }
+
+  @keyframes logoa {
+    0% {
+      width: 35%;
+    }
+    25% {
+      width: ;
+    }
   }
 
   .seconde-bar .menu {
@@ -623,6 +633,11 @@ body {
     padding: 16px;
   }
 
+  .seconde-bar .menu > div > a:hover {
+    color: #db1406;
+    font-size: 1.5rem;
+  }
+
   .menu #edx {
     color: #ec5242;
   }
@@ -631,6 +646,9 @@ body {
     border: 2px solid rgb(248, 5, 5);
   }
 
+  .menu #efx:hover {
+    border: 1px dotted rgb(0, 0, 0);
+  }
   .Welcome {
     padding-top: 30px;
     width: 80%;
