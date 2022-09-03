@@ -602,20 +602,29 @@ body {
   }
 
   .Logo > img {
-    width: 30%;
+    width: 11rem;
     position: absolute;
     height: 100%;
     object-fit: cover;
     margin-left: 10%;
-    animation-name: logoa;
+    animation: logoa 1s infinite;
   }
 
   @keyframes logoa {
     0% {
-      width: 35%;
+      width: 11rem;
     }
     25% {
-      width: ;
+      width: 12rem;
+    }
+    50% {
+      width: 12.5rem;
+    }
+    75% {
+      width: 12rem;
+    }
+    100% {
+      width: 11rem;
     }
   }
 
