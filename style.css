@@ -19,7 +19,12 @@ body {
   justify-content: flex-start;
   height: 100px;
   align-items: center;
-  background-image: url(images/mur-texture-platre-gris-blanc-utiliser-comme-arriere-plan_1194-423737.jpg);
+  background: linear-gradient(
+    90deg,
+    hsla(54, 62%, 85%, 1) 0%,
+    hsla(196, 80%, 79%, 1) 50%,
+    hsla(6, 81%, 54%, 1) 100%
+  );
 }
 
 .Mobile-menu .humburger {
@@ -32,7 +37,12 @@ body {
 
 .minimenu {
   display: flex;
-  background: #272a31;
+  background: linear-gradient(
+    90deg,
+    hsla(296, 100%, 6%, 1) 0%,
+    hsla(5, 90%, 24%, 1) 100%
+  );
+
   width: 100%;
   height: 100rem;
   position: relative;
@@ -75,7 +85,12 @@ body {
 }
 
 .intro {
-  background-image: url(images/mur-texture-platre-gris-blanc-utiliser-comme-arriere-plan_1194-423737.jpg);
+  background: linear-gradient(
+    90deg,
+    hsla(54, 62%, 85%, 1) 0%,
+    hsla(196, 80%, 79%, 1) 50%,
+    hsla(6, 81%, 54%, 1) 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 40px;
@@ -133,7 +148,11 @@ body {
 
 .Welcome #about-p {
   text-align: center;
-  background: #fff;
+  background: linear-gradient(
+    90deg,
+    rgb(193, 221, 220) 0%,
+    rgb(218, 76, 99) 100%
+  );
 }
 
 .Welcome #about-p1 {
@@ -265,6 +284,12 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 5px;
+  background: linear-gradient(
+    90deg,
+    hsla(54, 62%, 85%, 1) 0%,
+    hsla(196, 80%, 79%, 1) 50%,
+    hsla(6, 81%, 54%, 1) 100%
+  );
   padding-bottom: 5px;
 }
 
@@ -371,7 +396,6 @@ body {
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
-  margin-top: 5%;
   height: max-content;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -393,6 +417,12 @@ body {
 
 .about-footer {
   display: flex;
+  background: linear-gradient(
+    90deg,
+    hsla(54, 62%, 85%, 1) 0%,
+    hsla(196, 80%, 79%, 1) 50%,
+    hsla(6, 81%, 54%, 1) 100%
+  );
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -493,6 +523,16 @@ body {
   height: max-content;
   gap: 20px;
   margin-top: 10%;
+}
+
+.participant {
+  background: linear-gradient(
+    90deg,
+    hsla(54, 62%, 85%, 1) 0%,
+    hsla(196, 80%, 79%, 1) 50%,
+    hsla(6, 81%, 54%, 1) 100%
+  );
+  padding-bottom: 4rem;
 }
 
 .participant > h2 {
