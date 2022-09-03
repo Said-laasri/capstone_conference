@@ -76,8 +76,6 @@ body {
 }
 
 .intro {
-  width: 100%;
-  height: max-content;
   background-image: url(images/mur-texture-platre-gris-blanc-utiliser-comme-arriere-plan_1194-423737.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,7 +121,12 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 45px;
   font-weight: 800;
-  background: -webkit-linear-gradient(0deg, hsla(15, 86%, 49%, 1) 22%, hsla(0, 69%, 47%, 1) 56%, hsla(57, 91%, 50%, 1) 96%);
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(15, 86%, 49%, 1) 22%,
+    hsla(0, 69%, 47%, 1) 56%,
+    hsla(57, 91%, 50%, 1) 96%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1px 10px;
