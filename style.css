@@ -19,12 +19,13 @@ body {
   justify-content: flex-start;
   height: 100px;
   align-items: center;
-  background: linear-gradient(
-    90deg,
-    hsla(54, 62%, 85%, 1) 0%,
-    hsla(196, 80%, 79%, 1) 50%,
-    hsla(6, 81%, 54%, 1) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      hsla(54, 62%, 85%, 1) 0%,
+      hsla(196, 80%, 79%, 1) 50%,
+      hsla(6, 81%, 54%, 1) 100%
+    );
 }
 
 .Mobile-menu .humburger {
@@ -37,11 +38,12 @@ body {
 
 .minimenu {
   display: flex;
-  background: linear-gradient(
-    90deg,
-    hsla(296, 100%, 6%, 1) 0%,
-    hsla(5, 90%, 24%, 1) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      hsla(296, 100%, 6%, 1) 0%,
+      hsla(5, 90%, 24%, 1) 100%
+    );
   width: 100%;
   height: 100rem;
   position: relative;
@@ -84,12 +86,13 @@ body {
 }
 
 .intro {
-  background: linear-gradient(
-    90deg,
-    hsla(54, 62%, 85%, 1) 0%,
-    hsla(196, 80%, 79%, 1) 50%,
-    hsla(6, 81%, 54%, 1) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      hsla(54, 62%, 85%, 1) 0%,
+      hsla(196, 80%, 79%, 1) 50%,
+      hsla(6, 81%, 54%, 1) 100%
+    );
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 40px;
@@ -133,12 +136,13 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 45px;
   font-weight: 800;
-  background: -webkit-linear-gradient(
-    0deg,
-    hsla(15, 86%, 49%, 1) 22%,
-    hsla(0, 69%, 47%, 1) 56%,
-    hsla(57, 91%, 50%, 1) 96%
-  );
+  background:
+    -webkit-linear-gradient(
+      0deg,
+      hsla(15, 86%, 49%, 1) 22%,
+      hsla(0, 69%, 47%, 1) 56%,
+      hsla(57, 91%, 50%, 1) 96%
+    );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1px 10px;
@@ -147,11 +151,12 @@ body {
 
 .Welcome #about-p {
   text-align: center;
-  background: linear-gradient(
-    90deg,
-    rgb(193, 221, 220) 0%,
-    rgb(218, 76, 99) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      rgb(193, 221, 220) 0%,
+      rgb(218, 76, 99) 100%
+    );
 }
 
 .Welcome #about-p1 {
@@ -283,12 +288,13 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 5px;
-  background: linear-gradient(
-    90deg,
-    hsla(54, 62%, 85%, 1) 0%,
-    hsla(196, 80%, 79%, 1) 50%,
-    hsla(6, 81%, 54%, 1) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      hsla(54, 62%, 85%, 1) 0%,
+      hsla(196, 80%, 79%, 1) 50%,
+      hsla(6, 81%, 54%, 1) 100%
+    );
   padding-bottom: 5px;
 }
 
@@ -416,12 +422,13 @@ body {
 
 .about-footer {
   display: flex;
-  background: linear-gradient(
-    90deg,
-    hsla(54, 62%, 85%, 1) 0%,
-    hsla(196, 80%, 79%, 1) 50%,
-    hsla(6, 81%, 54%, 1) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      hsla(54, 62%, 85%, 1) 0%,
+      hsla(196, 80%, 79%, 1) 50%,
+      hsla(6, 81%, 54%, 1) 100%
+    );
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -528,12 +535,13 @@ body {
 }
 
 .participant {
-  background: linear-gradient(
-    90deg,
-    hsla(54, 62%, 85%, 1) 0%,
-    hsla(196, 80%, 79%, 1) 50%,
-    hsla(6, 81%, 54%, 1) 100%
-  );
+  background:
+    linear-gradient(
+      90deg,
+      hsla(54, 62%, 85%, 1) 0%,
+      hsla(196, 80%, 79%, 1) 50%,
+      hsla(6, 81%, 54%, 1) 100%
+    );
   padding-bottom: 4rem;
 }
 
