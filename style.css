@@ -81,6 +81,15 @@ body {
   color: #d3d3d3;
 }
 
+.Partners-log > a:hover {
+  width: 10rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d8cd30;
+}
+
 .minimenu .tags > a:hover {
   color: #df402b;
 }
