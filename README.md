@@ -1,45 +1,86 @@
-# Capstone-Project-I
+# 📗 Table of Contents
 
-# Description the project.
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Exotic Rentals ](#-exotic-rentals--)
+  - [Backend](#backend)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-This project is example of Website for offering services to our clients
+# 📖 Logistic-conference <a name="about-project"></a>
 
-## Built With
+Logistic-conference is a website for a conference that contains information about the conference and the speakers and the schedule of the conference.
 
-- html/css/js.
-- following linters standards.
-- following github flows standards.
+## 🛠 Built With <a name="built-with"></a>
+HTML 
+Css
+JavaScript
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Getting Started
+- [Live Demo Link](https://said-laasri.github.io/Capstone-Logistic-conference/)
 
-**My project works on mobile and disktop using @Media queries .**
-****************************************************
-To get a local copy up and running follow these simple example steps.
-follow>>>>>>>>>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
 
 ### Setup
 
-to use the project please follow :
+Clone this repository to your desired folder:
 
- >Open GitHub and go to my GitHub repository name: Capstone-Project-I .to clone.
+```sh
+  cd my-folder
+  git clone git@github.com
+```
 
- >Click “Code” and copy the given URL.
+### Install
 
- >Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
+Install this project with:
 
- >Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
-
- >Syntax:
-
-  $ git clone {repository URL}
+```sh
+  cd nicholas-portfolio
+  yarn install
+```
 
 ### Usage
-this website can be used for commercial reasons or marketing.
 
-### LIVE DEMO
-CHECK THIS [LINK](https://said-laasri.github.io/Capstone-Logistic-conference/)
+To run the project, execute the following command:
+
+```sh
+  npm run dev
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+  git push main
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a name="author"></a>
 
 ## Authors
 
@@ -49,21 +90,38 @@ CHECK THIS [LINK](https://said-laasri.github.io/Capstone-Logistic-conference/)
 - Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
 - LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
 
+## 🔭 Future Features <a name="future-features"></a>
 
-## 🤝 credit
+- [ ] **I will add a feature for a new project.**
+- [ ] **I will add some animations.**
 
-[@Cindy Shin](https://www.behance.net/adagio07) Thnks for this amazing Design.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Show your support
+## 🤝 Contributing <a name="contributing"></a>
 
-Give a ⭐️ if you like this project!
+Contributions, issues, and feature requests are welcome!
 
-## Acknowledgments
+Feel free to check the [issues page](../../issues/).
 
-- Microverse
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## ⭐️ Show your support <a name="support"></a>
 
-This project is [MIT](./MIT.md) licensed.
+If you like this project consider giving it a star ⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for giving me the opportunity to work on this project.
+
+- LazyCoders
+- Coding Partners
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
