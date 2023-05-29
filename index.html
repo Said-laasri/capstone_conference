@@ -1,152 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGISTICS</title>
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootsrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <title>Capstone-I-Project</title>
   </head>
+
   <body>
-    <nav id="Mobile" class="Mobile-menu">
-      <div class="humburger">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </nav>
-    <nav>
-      <div class="first-bar">
-        <div>
-          <a href="#">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
+    <div class="global">
+      <header>
+        <div class="header-icon">
+          <ul>
+            <li>
+              <a href="./index.html"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li>
+              <a href="./index.html"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li><a href="./index.html">English</a></li>
+            <li><a href="./index.html">My Page</a></li>
+            <li><a href="./index.html">Logout</a></li>
+          </ul>
         </div>
-        <div>
-          <a href="#">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container navbar-container">
+            <a class="navbar-brand fs-5" href="#">
+              <span class="logo">LOGISTICS-GLOBAL</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#program">Program</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#join">Join</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#speakers">Speakers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link campaign" href="#partners">Campaign</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="">
+        <div class="first-section" id="join">
+          <section class="title container">
+            <p class="title-paragraph">"Hello! Sharing World"</p>
+            <h1>LOGISTICS INT CONFRENCE DAY<br />2022</h1>
+            <p class="quote">
+              A joyful celebration believing in the value of openness and
+              sharing. Creating a positive change with people from over 80
+              countries is taking place in October. In Korea..
+            </p>
+            <span class="date">2022.10.05(THU) ~ 16(FRI)</span> <br />
+            <small class="venue">
+              @ National Museum of Morocco, Art center AlJelbab</small
+            >
+          </section>
         </div>
-        <div>
-          <a href="#">English</a>
+
+        <div class="second-section" id="program">
+          <div class="program container">
+            <div class="program-intro">
+              <h1>Main Program</h1>
+              <hr />
+            </div>
+
+            <div class="program-content">
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    src="./image/process.svg"
+                    class="mb-3"
+                    alt="lecture icon"
+                  />
+
+                  <h5 class="card-title">Process</h5>
+                  <p class="card-text">
+                    As a first step of exporting product packaging is most
+                    important as it asures the security of product.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    src="./image/load-truck.svg"
+                    class="mb-3"
+                    alt="Exhibition icon"
+                  />
+
+                  <h5 class="card-title">Loading</h5>
+                  <p class="card-text">
+                    As a first step of exporting product packaging is most
+                    important as it asures the security of product.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    src="./image/transport.svg"
+                    class="mb-3"
+                    alt="Forum icon"
+                  />
+
+                  <h5 class="card-title">Transport</h5>
+                  <p class="card-text">
+                    As a first step of exporting product packaging is most
+                    important as it asures the security of product.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    src="./image/sea.svg"
+                    class="mb-3"
+                    alt="Workshorp icon"
+                  />
+
+                  <h5 class="card-title">Sea-Transport</h5>
+                  <p class="card-text">
+                    As a first step of exporting product packaging is most
+                    important as it asures the security of product.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-body text-center">
+                  <img
+                    src="./image/deliver.svg"
+                    class="mb-3"
+                    alt="Ignition icon"
+                  />
+
+                  <h5 class="card-title">Deliver</h5>
+                  <p class="card-text">
+                    As a first step of exporting product packaging is most
+                    important as it asures the security of product.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="whole-session">
+              <a href="#">See the whole program</a>
+            </div>
+          </div>
         </div>
-        <div>
-          <a href="#">My Page</a>
-        </div>
-        <div>
-          <a href="#">Logout</a>
-        </div>
-      </div>
-      <div class="seconde-bar">
-        <a class="Logo" href="index.html">
-          <img src="images/logo44.png" alt="logo-website">
-        </a>
-        <div class="menu">
-          <div class="closer">
-            <i class="fa-solid fa-xmark"></i>
+
+        <section class="speakers container" id="speakers">
+          <div class="speakers-intro container">
+            <h1>Featured Speakers</h1>
+            <hr />
           </div>
-          <div class="tags">
-            <a id="edx" href="index.html">Home</a>
+          <div class="speakers-bio container"></div>
+        </section>
+      </main>
+
+      <footer>
+        <section class="partner" id="partners">
+          <h1>partners</h1>
+          <hr />
+          <div class="partners-list">
+            <ul class="clients d-flex"></ul>
           </div>
-          <div class="tags">
-            <a href="#Program-cards">Program</a>
-          </div>
-          <div class="tags">
-            <a href="#">Join</a>
-          </div>
-          <div class="tags">
-            <a href="#partner">Sponsor</a>
-          </div>
-          <div class="tags">
-            <a href="#speakers">News</a>
-          </div>
-          <div class="tags">
-            <a id="efx" href="about.html">About</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <section class="intro">
-      <article class="Welcome">
-        <h1>"Hello! Sharing World" </h3>
-          <h2 class="h1">LOGISTICS INT CONFRENCE DAY 2022</h2>
-          <p>A joyful celebration blieving in the value of opennesss and sharing .creating a positive change with peaple from over 80 countries is taking place in October.in Korea.</p>
-          <h2>2022.10.05(THU) ~ 16(FRI)</h2>
-          <h4>@ National Museum of Korea, Art center Nabi and more</h4>
-      </article>
-    </section>
-    <section id="Program-cards" class="Program-cards">
-      <div>
-        <h3>Main Program</h3>
-        <hr class="line">
-      </div>
-      <ul class="program-list">
-        <li>
-          <img src="images/logistic.png" alt="processing-chain">
-          <h6>Process</h6>
-          <p>As a first step of exporting product packaging is most important as it asures the security of product</p>
-        </li>
-        <li>
-          <img src="images/forklift.png" alt="storage forkleft">
-          <h6>Loading</h6>
-          <p>As a first step of exporting product packaging is most important as it asures the security of product</p>
-        </li>
-        <li>
-          <img src="images/logistics.png" alt="logistic tansport">
-          <h6>Transport</h6>
-          <p>As a first step of exporting product packaging is most important as it asures the security of product</p>
-        </li>
-        <li>
-          <img src="images/logistic.png" alt="supply-chain logistic">
-          <h6>Sea-Trans</h6>
-          <p>As a first step of exporting product packaging is most important as it asures the security of product</p>
-        </li>
-        <li>
-          <img src="images/distribution.png" alt="delevering-merchandise">
-          <h6>Deliver</h6>
-          <p>As a first step of exporting product packaging is most important as it asures the security of product</p>
-        </li>
-      </ul>
-      <a class="Join-btn" href="#">
-        <button>Join CC Global Summit 2022</button>
-      </a>
-    </section>
-    <section class="participant">
-      <h2>Featured Speakers</h2>
-      <hr class="line">
-      <section id="speakers" class="speakers">
-        <!-- ******************* JS inject code ************* -->
-      </section>
-    </section>
-    <section id="partner" class="partners">
-      <h3>Partner</h3>
-      <hr class="line">
-      <div class="Partners-log">
-        <a href="#">
-          <img src="images/mozilla.svg" alt="mozilla">
-        </a>
-        <a href="#">
-          <img src="images/google.svg" alt="google">
-        </a>
-        <a href="#">
-          <img src="images/naver.svg" alt="naver">
-        </a>
-        <a href="#">
-          <img src="images/daumkakao.svg" alt="daumkakao">
-        </a>
-        <a href="#">
-          <img src="images/airbnb.svg" alt="airbnb">
-        </a>
-      </div>
-    </section>
-    <footer class="about-footer">
-      <div>
-        <img src="images/creative_commons.svg" alt="logo-website">
-      </div>
-      <div>
-        <p>2017 Creative Commons Korea Some Rights Reserved</p>
-      </div>
-    </footer>
-    <script src="javascript/Dynamic.js"></script>
-    <script src="javascript/menu.js"></script>
+        </section>
+
+        <section class="custom">
+          <ul>
+            <li>
+              <span class="logo">LOGISTICS-GLOBAL</span> <br />
+              Summit
+            </li>
+            <li class="hid">
+              (c) 2023 Logistics-Global Summit, All Right Reserved
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+
+    <!-- bootsrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./javascript/index.js"></script>
+    <script src="./javascript/clients.js"></script>
   </body>
 </html>
