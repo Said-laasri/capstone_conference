@@ -1,139 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-    <title>About:Capstone-I-Project</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGISTICS</title>
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootsrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/about.css" />
   </head>
+
   <body>
-    <nav id="Mobile" class="Mobile-menu">
-      <div class="humburger">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </nav>
-    <nav>
-      <div class="first-bar">
-        <div>
-          <a href="#">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-        </div>
-        <div>
-          <a href="#">English</a>
-        </div>
-        <div>
-          <a href="#">My Page</a>
-        </div>
-        <div>
-          <a href="#">Logout</a>
-        </div>
-      </div>
-      <div class="seconde-bar">
-        <a class="Logo" href="index.html">
-          <img src="images/logo44.png" alt="logo-website">
-        </a>
-        <div class="menu">
-          <div class="closer">
-            <i class="fa-solid fa-xmark"></i>
-          </div>
-          <div class="tags">
-            <a id="edx" href="index.html">Home</a>
-          </div>
-          <div class="tags">
-            <a href="#Program-cards">Program</a>
-          </div>
-          <div class="tags">
-            <a href="#">Join</a>
-          </div>
-          <div class="tags">
-            <a href="#partner">Sponsor</a>
-          </div>
-          <div class="tags">
-            <a href="#speakers">News</a>
-          </div>
-          <div class="tags">
-            <a id="efx" href="about.html">About</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <section class="intro">
-      <article id="Welcome-about" class="Welcome">
-        <h1 id="about-h3">"Hello! Sharing World"</h1>
-        <h2 id="about-h1">LOGISTICS INT DAY IN NEW SUIT! 2022</h2>
-        <p id="about-p">The Global Summit brings together the community of experts,academics,and activists who comprise the Creative Commoms affiliate nework in a different country every two years.This year,we hope to expand out invitation list including orgaizaions and individuals. </p>
-        <p id="about-p1">Please contact us per Email for any further questions about CC Global Summit 2022!</p>
-        <h4 id="about-h4">ccsummit2022@cckorea.org</h4>
-      </article>
-      <article class="subject">
-        <h2>Creative Commons Global Summit 2022 Logo</h2>
-        <hr class="line">
-        <p>The log of CC Global Summit 2022 was decided throught the logo compitition from 8.June to 7.July.</p>
-        <img src="images/logo44.png" alt="logo-website">
-      </article>
-    </section>
-    <section>
-      <div class="past-summits">
-        <article>
-          <h4>See the past CC Global Summits</h4>
-          <hr class="line">
-          <p>Take a look at the last CC Global Summits wich took place in Buenos Aires and Warsaw</p>
-        </article>
-        <div id="post-card" class="post-card">
-          <div class="summit1">
-            <img src="images/meeting-1.jpg" alt="meeting-2020">
-            <div class="summit-content">
-              <h3>2020</h3>
-              <h5>CC Global Summit 2018 in Buenos Aires</h5>
+    <div class="global">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <div class="container navbar-container">
+            <a class="navbar-brand fs-5" href="#">
+              <span class="logo">LOGISTICS-GLOBAL</span></a
+              >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#program">Program</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#news">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#events">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link campaign" href="#">Campaign</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="summit2">
-            <img src="images/meeting-2.jpg" alt="meeting-2019">
-            <div class="summit-content">
-              <h3>2019</h3>
-              <h5>CC Global Summit 2016 in Warsaw</h5>
+        </nav>
+      </header>
+
+      <main class="">
+        <div class="first-section" id="program">
+          <section class="title container">
+            <p class="title-paragraph">"Hello! Sharing World"</p>
+            <h1>LOGISTICS INT CONFRENCE DAY<br />2022</h1>
+            <p class="quote">
+              A joyful celebration believing in the value of openness and
+              sharing. Creating a positive change with people from over 80
+              countries is taking place in October. In Korea..
+            </p>
+            <span
+              >Please contact by Email for any further question about LOGISTICS-GLOBAL Summit
+              2022.</span
+            >
+            <br />
+            <span
+              ><a href="azerotatre@gmail.com"
+                >log_glob2022@yahoo.com</a
+              ></span
+            >
+          </section>
+        </div>
+
+        <section class="wp-logo container" id="news">
+          <h3>Logistics Globals Summit 2023 Logo</h3>
+          <hr />
+          <p>
+            The logo of the Logistics Global Summit was delivered through the logo competition
+            from August 2021 to July 2022. After online voting and committe
+            selection process, Jhony detp won the prize. After consulting
+            with Mr.Jhon, we optimized the price winning logo for this
+            year's summit as follows:
+          </p>
+
+          <div class="logo-box">
+            <p>
+              <span class="logo">LOGISTICS</span> Global <br />
+              Summit 2023
+            </p>
+            <span class="logo-box-span"
+              >8th-10th March 2023 | Moroccom CasaBlanca</span
+            >
+          </div>
+        </section>
+        <hr />
+        <section class="past-event container" id="events">
+          <h1>See the past LOGISTICS-GLOBAL Summit</h1>
+          <hr />
+          <p>
+            Take a look at the past two Logistics Globals Summit which took place in Tanger and
+            Rabat
+          </p>
+          <div class="event-img">
+            <div class="event">
+              <img
+                src="./image/meeting-2.jpg"
+                alt="Women in politics summit picture"
+              />
+              <div class="event-content">
+                <h2>2021</h2>
+                <p>LOGISTICS-GLOBAL Summit in Lagos</p>
+              </div>
+            </div>
+            <div class="event">
+              <img
+                src="./image/meeting1.jpg"
+                alt="Women in politics summit picture"
+              />
+              <div class="event-content">
+                <h2>2022</h2>
+                <p>LOGISTICS-GLOBAL Summit in Abuja</p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section id="partners" class="partners">
-      <h3>Partner</h3>
-      <hr class="line">
-      <div class="Partners-log">
-        <a href="#">
-          <img src="images/mozilla.svg" alt="mozilla">
-        </a>
-        <a href="#">
-          <img src="images/google.svg" alt="google">
-        </a>
-        <a href="#">
-          <img src="images/naver.svg" alt="naver">
-        </a>
-        <a href="#">
-          <img src="images/daumkakao.svg" alt="daumkakao">
-        </a>
-        <a href="#">
-          <img src="images/airbnb.svg" alt="airbnb">
-        </a>
-      </div>
-    </section>
-    <footer id="about-footer" class="about-footer">
-      <div>
-        <img src="images/creative_commons.svg" alt="logo-website">
-      </div>
-      <div>
-        <p>2017 Creative Commons Korea Some Rights Reserved</p>
-      </div>
-    </footer>
-    <script src="javascript/menu.js"></script>
+        </section>
+      </main>
+
+      <footer>
+        <section class="custom container">
+          <ul>
+            <li>
+              <span class="logo">LOGISTICS</span>Global <br />
+              Summit
+            </li>
+            <li class="hid">
+              (c) 2023 Logistics Global Summit, All Right Reserved
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+    <!-- bootsrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
