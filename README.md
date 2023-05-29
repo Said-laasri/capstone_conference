@@ -58,8 +58,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd nicholas-portfolio
-  yarn install
+  cd capstone_conference/
+  npm install
 ```
 
 ### Usage
@@ -67,22 +67,11 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  npm run dev
+  click on Run live server on your vscode
 ```
 
-### Deployment
-
-You can deploy this project using:
-
-```sh
-  git push main
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Author <a name="author"></a>
-
-## Authors
 
 👤 **Said laasri**
 
@@ -90,12 +79,6 @@ You can deploy this project using:
 - Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
 - LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **I will add a feature for a new project.**
-- [ ] **I will add some animations.**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
