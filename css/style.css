@@ -82,7 +82,7 @@ span .navbar-toggler-icon {
 }
 
 .first-section {
-  background: url(./image/conference-bg.png);
+  background: url(./../image//conference-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -92,7 +92,7 @@ span .navbar-toggler-icon {
 }
 
 .title h1 {
-  background-image: url(./image/title-bg.jpg);
+  background-image: url(./../image/title-bg.jpg);
   background-size: contain;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -128,7 +128,7 @@ span .navbar-toggler-icon {
 }
 
 .second-section {
-  background: url(./image/Prog-bg.jpg);
+  background: url(./../image//Prog-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -219,7 +219,7 @@ span .navbar-toggler-icon {
 }
 
 .speaker-bg {
-  background: url(./image/speaker-bg.jpeg) 0 0 no-repeat;
+  background: url(./../image/speaker-bg.jpeg) 0 0 no-repeat;
   background-size: 100%;
   width: 80px;
   height: 70px;

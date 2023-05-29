@@ -43,7 +43,7 @@
 }
 
 .first-section {
-  background: url(./image/conference-bg.png);
+  background: url(./../image/conference-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -55,7 +55,7 @@
 }
 
 .title h1 {
-  background-image: url(./image/title-bg.jpg);
+  background-image: url(./../image/title-bg.jpg);
   background-size: contain;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
