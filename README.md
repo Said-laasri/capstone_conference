@@ -32,7 +32,7 @@ JavaScript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://said-laasri.github.io/Capstone-Logistic-conference/)
+> [Live Demo Link](https://said-laasri.github.io/capstone_conference/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
